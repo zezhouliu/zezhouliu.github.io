@@ -142,7 +142,7 @@ body {
 
 
 .social-media {
-    margin: 15px;
+    margin: 8px;
     width: 100px;
     height: 100px;
     box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
@@ -157,4 +157,8 @@ body {
 
 #email-icon {
     
+}
+
+#about .intro p.description {
+    font-size: medium;
 }

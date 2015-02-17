@@ -1,0 +1,160 @@
+/* General Stuff */
+body {
+	position: relative;
+	background: #DDDCE2 url(../img/backgrounds/body_bg.jpg) repeat left top;
+	-webkit-font-smoothing: antialiased;
+	/* font-family: 'Lato', sans-serif !important; */
+    font-family: 'Julius Sans One', sans-serif;
+	padding-top: 107px;
+}
+
+
+/* Section stuff */
+.section_header {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section_header h3 {
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 27px;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin:0;
+}
+
+/* About Section */
+#about {
+    padding-top: 60px;
+	font-family: 'Lato', sans-serif !important;
+}
+
+.circle_area {
+	width: 250px;
+	height: 250px;
+    max-height: 100%;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#prof_pic {
+    background: url('../img/prof.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#prof_left {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#prof_description {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#about .bio_box{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#about .intro .bio_box .info p{
+    margin-bottom: 0;
+}
+
+#about .intro .bio_box .info p.name{
+    color: #98989A;
+    font-style: italic;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+#about .intro .bio_box .info p.subtitle{
+    color: #98989A;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+/* Research Section */
+#research {
+    padding-bottom: 60px;
+    padding-top: 60px;
+	font-family: 'Lato', sans-serif !important;
+}
+
+/* Contact Section */
+#contact {
+    padding-bottom: 60px;
+    padding-top: 60px;
+	font-family: 'Lato', sans-serif !important;
+/*    background-image: url(../img/backgrounds/light-squares.jpg);*/
+    background-repeat: repeat;
+
+}
+
+/* Footer Section */
+#footer {
+    width:100%;
+    padding: 30px 15px;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background: #DDDCE2 repeat left top;
+    border-color: #555;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+#email {
+    background: url('../img/icons/Social-Icon-email.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 150px;
+}
+
+#github {
+    background: url('../img/icons/Social-Icon-github.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 150px;
+}
+
+
+.social-media {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
+}
+
+.contact_info {
+    /* Social Media */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#email-icon {
+    
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Alex Liu">
+
+    <title>Zezhou Liu</title>
+
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/home.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="padding-top: 0px">
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Zezhou Liu</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#about" id="about_btn">ABOUT ME</a></li>
+                    <li>
+                        <a href="research.html" id="research_btn">RESEARCH</a>
+                    </li>
+                    <li>
+                        <a href="courses.html" id="courses_btn">COURSES</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#projects" class="dropdown-toggle" data-toggle="dropdown">
+                            PROJECTS
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#cs61" id="cs61">Systems Programming</a></li>
+                            <li><a href="#cs164" id="cs164">Software Engineering</a></li>
+                            <li><a href="#cs171" id="cs171">Visualizations</a></li>
+                            <li><a href="#cs207" id="cs207">Systems Development</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contact" id="contact_btn">CONTACT</a>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div id="about">
+        <section id="about_section" class=>
+            <div class="container">
+                <div class="section_header">
+                    <h3>About Me</h3>
+                </div>
+                <div class="row intro">
+                    <div class="col-lg-12 bio_box">
+                        <div class="col-lg-6" id="prof_left">
+                            <div class="circle_area" id="prof_pic"></div>
+                        </div>
+                        <div class="col-lg-6" id="prof_description">
+                            <div class="info">
+                                <p class="name">Zezhou (Alex) Liu</p>
+                                <p class="subtitle">Harvard 2016</p>
+                                <br>
+                                <p>My name is Alex Liu and I'm a junior at Harvard pursuing an A.B. in
+                                Computer Science and a secondary in Economics.  I'm interested in database 
+                                research and am a part of the <a href="http://daslab.seas.harvard.edu">DAS Research Lab</a> 
+                                led by <a href="http://stratos.seas.harvard.edu/">Professor Stratos Idreos</a>.
+                                My current project focuses on improving join performances in column-store databases.
+                                
+                                <br><br>
+                                Besides database systems, I love software engineering.  I have previously 
+                                interned at Redbeacon and Microsoft, and this upcoming summer I will be a part of the MESA 
+                                database team at Google.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section id="contact_section" class=>
+            <div class="container">
+                <div class="section_header">
+                    <h3>Contact Me</h3>
+                </div>
+                <div class="row contact_info">
+                    <a href="mail:zezhouliu@gmail.com">
+                        <img alt class="img-circle social-media" src="img/social/Social-Icon-email.png" id="email-icon">
+                    </a>
+                    <a href="http://www.github.com/zezhouliu">
+                        <img alt class="img-circle social-media" src="img/social/Social-Icon-github.png">
+                    </a>
+                    <a href="http://www.linkedin.com/in/zezhouliu">
+                        <img alt class="img-circle social-media" src="img/social/Social-Icon-linkedin.png">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+    <footer id="footer">
+        <div class="container">
+            <p>Copyright &copy; 2014-2015 - Alex Liu</p>
+        </div>
+    </footer>
+</html>

@@ -81,4 +81,5 @@ body {
 .intro {
     margin: 0 auto;
     width: 80%;
+    min-width: 320px;
 }

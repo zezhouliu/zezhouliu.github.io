@@ -1,0 +1,27 @@
+
+#coursework_box {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.year_box {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro .year_box .info p.title{
+    color: #98989A;
+    font-style: italic;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+
+.intro .year_box .info p.subtitle{
+    margin: 0;
+    font-size: 16px;
+}

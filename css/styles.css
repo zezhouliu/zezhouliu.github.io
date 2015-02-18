@@ -75,6 +75,10 @@ body {
     color: #98989A;
     font-style: italic;
     font-size: 16px;
-    margin-bottom: 18px;
 }
 
+
+.intro {
+    margin: 0 auto;
+    width: 80%;
+}

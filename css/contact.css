@@ -1,0 +1,28 @@
+
+#contact_box {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+    #contact_box {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+#message_body {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contact_box {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}

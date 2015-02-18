@@ -1,0 +1,80 @@
+
+/* General Stuff */
+body {
+	position: relative;
+	background: #DDDCE2 url(../img/backgrounds/body_bg.jpg) repeat left top;
+	-webkit-font-smoothing: antialiased;
+	/* font-family: 'Lato', sans-serif !important; */
+    font-family: 'Julius Sans One', sans-serif;
+	padding-top: 107px;
+}
+
+/* Section stuff */
+.section_header {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section_header h3 {
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    font-style: italic;
+    font-size: 27px;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin:0;
+}
+
+.section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+	font-family: 'Lato', sans-serif !important;
+}
+
+.section.section-first {
+    padding-bottom: 40px;
+    padding-top: 60px;
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+/* Footer Section */
+#footer {
+    width:100%;
+    padding: 30px 15px;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background: #DDDCE2 repeat left top;
+    border-color: #555;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Intro section stuff */
+
+.intro_box{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro .intro_box .info p{
+    margin-bottom: 0;
+}
+
+.intro .intro_box .info p.title{
+    color: #98989A;
+    font-style: italic;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+
+.intro .intro_box .info p.subtitle{
+    color: #98989A;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+

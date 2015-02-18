@@ -14,7 +14,7 @@
 
     <!-- Custom styles -->
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     
@@ -40,7 +40,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html" id="home_btn">HOME</a></li>
+                    <li><a href="index.html" id="home_btn">HOME</a></li>
                     <li>
                         <a href="research.html" id="research_btn">RESEARCH</a>
                     </li>
@@ -59,7 +59,7 @@
                             <li><a href="#cs207" id="cs207">Systems Development</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="contact.html" id="contact_btn">CONTACT</a>
                     </li>
                 </ul>
@@ -67,70 +67,37 @@
         </div>
     </div>
 
-    <div class="section section-first" id="about">
-        <section id="about_section" class=>
-            <div class="container">
+    <div class="section section-first" id="contact_box">
+        <section id="contact_section">
+            <div class="container" id="contact_box">
                 <div class="section_header">
-                    <h3>About Me</h3>
+                    <h3>Contact Me</h3>
                 </div>
                 <div class="row intro">
-                    <div class="col-lg-12 intro_box">
-                        <div class="col-lg-6" id="prof_left">
-                            <div class="circle_area" id="prof_pic"></div>
+                    <div class="col-lg-12 contact_box">
+                        <div class="col-md-12">
+                            <form action="http://formspree.io/zezhouliu@college.harvard.edu" method="post">
+                                <div class="form-group">
+                                    <label for="emailInput">Email address</label>
+                                    <input type="email" class="form-control" id="emailInput" placeholder="Your email" name="_replyto">
+                                </div>
+                                <div class="form-group">
+                                    <label for="body">Message</label>
+                                    <br>
+                                    <textarea name="body" rows="10" id="message_body"></textarea>
+        <!--                            <input type="text" class="form-control" id="body" placeholder="Your message">-->
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
                         </div>
-                        <div class="col-lg-6" id="prof_description">
-                            <div class="info">
-                                <p class="title">Zezhou (Alex) Liu</p>
-                                <p class="subtitle">Harvard 2016</p>
-                                <br>
-                                <p class="description">My name is Alex Liu and I'm a junior at Harvard pursuing an A.B. in
-                                Computer Science and a secondary in Economics.  I'm passionate about Big Data, software engineering, 
-                                and systems programming!  
-                                
-                                <br><br>
-                                My software engineering experience includes internships with Redbeacon and Microsoft.  
-                                At Redbeacon I worked on the mobile team to develop an app for iOS6 + 7.  At Microsoft I worked 
-                                on developing an intelligent data analytics tool for Outlook to analyze email behavior and suggest 
-                                better email practices.
-                                    
-                                <br><br>
-                                I'm very interested in database research and am a part of the 
-                                <a href="http://daslab.seas.harvard.edu" target="_blank">
-                                DAS Research Lab</a> 
-                                led by <a href="http://stratos.seas.harvard.edu/" target="_blank">
-                                Professor Stratos Idreos</a>.
-                                My current project focuses on improving join performances by exploiting fast-scans, 
-                                compression techniques, and the high-degree of parallelism of column-store databases.
-                                
-                                </p>
-                            </div>
-                        </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </section>
     </div>
 
-    <div class="section" id="contact">
-        <section id="contact_section" class=>
-            <div class="container">
-                <div class="section_header">
-                    <h3>Contact Me</h3>
-                </div>
-                <div class="row contact_info">
-                    <a href="mail:zezhouliu@gmail.com">
-                        <img alt class="img-circle social-media" src="img/social/Social-Icon-email.png">
-                    </a>
-                    <a href="http://www.github.com/zezhouliu">
-                        <img alt class="img-circle social-media" src="img/social/Social-Icon-github.png">
-                    </a>
-                    <a href="http://www.linkedin.com/in/zezhouliu">
-                        <img alt class="img-circle social-media" src="img/social/Social-Icon-linkedin.png">
-                    </a>
-                </div>
-            </div>
-        </section>
-    </div>
 
 
     <!-- Bootstrap core JavaScript

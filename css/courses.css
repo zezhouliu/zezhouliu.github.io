@@ -5,7 +5,12 @@
     margin-right: auto;
 }
 
-
+@media screen and (max-width: 640px) {
+    #coursework_box {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
 
 .year_box {
     padding-left: 0px;

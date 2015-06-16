@@ -19,7 +19,7 @@ body {
     color: rgb(100, 100, 100);
     font-weight: 300;
     font-style: italic;
-    font-size: 27px;
+    font-size: 36px;
     border-bottom: 1px solid #b3b3b3;
     padding-bottom: 0px;
     display: inline-block;
@@ -68,13 +68,13 @@ body {
     color: #98989A;
     font-style: italic;
     margin-bottom: 4px;
-    font-size: 21px;
+    font-size: 28px;
 }
 
 .intro .intro_box .info p.subtitle{
     color: #98989A;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -88,4 +88,18 @@ body {
     height: 30px;
     box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
     margin: 0;
+}
+
+/* Resizable box */
+#resize_box {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+    #resize_box {
+        margin: 0 auto;
+        width: 100%;
+    }
 }

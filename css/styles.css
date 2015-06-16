@@ -107,3 +107,18 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    #resize_box {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #resize_box {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+

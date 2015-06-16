@@ -5,6 +5,20 @@
     margin-right: auto;
 }
 
+@media screen and (max-width: 1080px) {
+    #contact_box {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #contact_box {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 640px) {
     #contact_box {
         margin: 0 auto;
